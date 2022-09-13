@@ -197,7 +197,7 @@ main {
 @media all and (max-width: 425px) {
     main {
         width: 100% !important;
-        height: 105vh;
+        height: 100vh;
     }
     .keanu__img {
         width: 100%;
