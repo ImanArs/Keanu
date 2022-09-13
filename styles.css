@@ -273,3 +273,82 @@ main {
         padding: 0;
     }
 }
+@media all and (max-width: 375px) {
+    main {
+        width: 100% !important;
+        height: 105vh;
+    }
+    .keanu__img {
+        width: 100%;
+    }
+    .keanu__img_1 {
+        padding-top: 50px !important;
+        width: 230px;
+    }
+    .keanu__img_2 {
+        width: 450px;
+    }
+    .keanu__txt p {
+        width: 100%;
+        font-size: 15px;
+        padding: 5px 0;
+        line-height: 16px;
+    }
+    .dj {
+        padding-top: 50px;
+    }
+    .left_dj_block {
+        position: relative;
+        top: -50px;
+    }
+    .right_dj_block {
+        position: relative;
+        top: 0px;
+        left: 50px;
+    }
+    .left_dj {
+        position: absolute;
+        top: -20px;
+        width: 250px;
+        right: -100px;
+    }
+    .right_dj {
+        position: absolute;
+        top: -60px;
+        width: 280px;
+        left: -150px;
+    }
+    .circle_1 {
+        width: 350px;
+        height: 350px;
+        right: -100px;
+    }
+    .circle_2 {
+        top: -30px;
+        width: 350px;
+        height: 350px;
+        left: -100px;
+    }
+    .sakura_anim {
+        width: 100%;
+    }
+    .sakura_anim_1 {
+        width: 150px;
+        position: absolute;
+        animation: sakura_1 3s ;
+    }
+    .sakura_anim_2 {
+        position: absolute;
+        width: 200px;
+        right: 10px;
+        animation: sakura_2 3s ;
+        overflow: hidden;
+    }
+    .keanu__img_2 {
+        display: none;
+    }
+    .keanu__img_mob {
+        display: block;
+        padding: 0;
+    }
+}
