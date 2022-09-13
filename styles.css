@@ -103,13 +103,13 @@ main {
 .sakura_anim_1 {
     width: 350px;
     position: absolute;
-    animation: sakura_1 3s ;
+    animation: sakura_1 .1s ;
 }
 .sakura_anim_2 {
     position: absolute;
     width: 550px;
     /* right: 1000px; */
-    animation: sakura_2 3s ;
+    animation: sakura_2 .1s ;
 }
 @keyframes sakura_1 {
     0% {
@@ -197,12 +197,13 @@ main {
 @media all and (max-width: 425px) {
     main {
         width: 100% !important;
-        height: 120vh;
+        height: 100vh;
     }
     .keanu__img {
         width: 100%;
     }
     .keanu__img_1 {
+        padding-top: 50px;
         width: 230px;
     }
     .keanu__img_2 {
@@ -219,23 +220,24 @@ main {
     }
     .left_dj_block {
         position: relative;
-        top: 0px;
+        top: -50px;
     }
     .right_dj_block {
         position: relative;
         top: 0px;
+        left: 50px;
     }
     .left_dj {
         position: absolute;
         top: -20px;
-        width: 200px;
-        right: -50px;
+        width: 250px;
+        right: -100px;
     }
     .right_dj {
         position: absolute;
         top: -60px;
-        width: 230px;
-        left: -50px;
+        width: 280px;
+        left: -150px;
     }
     .circle_1 {
         width: 350px;
