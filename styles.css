@@ -203,7 +203,7 @@ main {
         width: 100%;
     }
     .keanu__img_1 {
-        padding-top: 50px;
+        padding-top: 50px !important;
         width: 230px;
     }
     .keanu__img_2 {
