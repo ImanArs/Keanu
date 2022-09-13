@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+main {
+    background: url('./img/backgroud.png')  no-repeat;
+    max-width: 1440px;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+.keanu__img_mob {
+    display: none;
+}
+.keanu__img {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.keanu__img_1 {
+    width: 330px;
+}
+.keanu__img_2 {
+    width: 750px;
+    /* top: -500px; */
+}
+.keanu__txt p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 33px;
+    animation: circle 4s infinite;
+    width: 700px;
+    margin: 0 auto;
+    padding: 9px 0;
+}
+
+.dj {
+    display: flex;
+    justify-content: space-evenly;
+}
+.left_dj_block {
+    position: relative;
+    top: -150px;
+}
+.right_dj_block {
+    position: relative;
+    top: -150px;
+}
+.left_dj {
+    position: absolute;
+    top: -70px;
+    width: 400px;
+    right: 80px;
+}
+.right_dj {
+    position: absolute;
+    top: -100px;
+    width: 420px;
+    left: 100px;
+}
+.circle_1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 15px solid red;
+    border-radius: 50%;
+    right: 100px;
+    filter: blur(5px);
+    animation: circle 4s infinite;
+}
+.circle_2 {
+    position: absolute;
+    top: -30px;
+    width: 400px;
+    height: 400px;
+    border: 15px solid red;
+    border-radius: 50%;
+    left: 100px;
+    filter: blur(5px);
+    animation: circle 4s infinite;
+}
+@keyframes circle {
+    0% {
+        border-color: rgba(255, 0, 0, 0.493);
+    }
+    50% {
+        border-color: rgb(255, 0, 0);
+    }
+    100% {
+        border-color: rgba(255, 0, 0, 0.493);
+    }
+}
+
+.sakura_anim {
+    width: 59.5%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.sakura_anim_1 {
+    width: 350px;
+    position: absolute;
+    animation: sakura_1 3s ;
+}
+.sakura_anim_2 {
+    position: absolute;
+    width: 550px;
+    /* right: 1000px; */
+    animation: sakura_2 3s ;
+}
+@keyframes sakura_1 {
+    0% {
+        transform: translateX(-300px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes sakura_2 {
+    
+    0% {
+        top: -300px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    main {
+        width: 100% !important;
+    }
+    .keanu__img {
+        width: 100%;
+    }
+    .keanu__img_1 {
+        width: 230px;
+    }
+    .keanu__img_2 {
+        width: 450px;
+    }
+    .keanu__txt p {
+        font-size: 16px;
+        padding: 5px 0;
+        line-height: 16px;
+    }
+    .left_dj_block {
+        position: relative;
+        top: 0px;
+    }
+    .right_dj_block {
+        position: relative;
+        top: 0px;
+    }
+    .left_dj {
+        position: absolute;
+        top: -70px;
+        width: 280px;
+        right: 80px;
+    }
+    .right_dj {
+        position: absolute;
+        top: -100px;
+        width: 300px;
+        left: 100px;
+    }
+    .circle_1 {
+        width: 350px;
+        height: 350px;
+        right: 100px;
+    }
+    .circle_2 {
+        top: -30px;
+        width: 350px;
+        height: 350px;
+        left: 100px;
+    }
+    .sakura_anim {
+        width: 100%;
+    }
+    .sakura_anim_1 {
+        width: 200px;
+        position: absolute;
+        animation: sakura_1 3s ;
+    }
+    .sakura_anim_2 {
+        position: absolute;
+        width: 300px;
+        right: 10px;
+        animation: sakura_2 3s ;
+        overflow: hidden;
+    }
+}
+@media all and (max-width: 425px) {
+    main {
+        width: 100% !important;
+        height: 120vh;
+    }
+    .keanu__img {
+        width: 100%;
+    }
+    .keanu__img_1 {
+        width: 230px;
+    }
+    .keanu__img_2 {
+        width: 450px;
+    }
+    .keanu__txt p {
+        width: 100%;
+        font-size: 15px;
+        padding: 5px 0;
+        line-height: 16px;
+    }
+    .dj {
+        padding-top: 50px;
+    }
+    .left_dj_block {
+        position: relative;
+        top: 0px;
+    }
+    .right_dj_block {
+        position: relative;
+        top: 0px;
+    }
+    .left_dj {
+        position: absolute;
+        top: -20px;
+        width: 200px;
+        right: -50px;
+    }
+    .right_dj {
+        position: absolute;
+        top: -60px;
+        width: 230px;
+        left: -50px;
+    }
+    .circle_1 {
+        width: 350px;
+        height: 350px;
+        right: -100px;
+    }
+    .circle_2 {
+        top: -30px;
+        width: 350px;
+        height: 350px;
+        left: -100px;
+    }
+    .sakura_anim {
+        width: 100%;
+    }
+    .sakura_anim_1 {
+        width: 150px;
+        position: absolute;
+        animation: sakura_1 3s ;
+    }
+    .sakura_anim_2 {
+        position: absolute;
+        width: 200px;
+        right: 10px;
+        animation: sakura_2 3s ;
+        overflow: hidden;
+    }
+    .keanu__img_2 {
+        display: none;
+    }
+    .keanu__img_mob {
+        display: block;
+        padding: 0;
+    }
+}
