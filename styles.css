@@ -34,7 +34,7 @@ main {
     animation: circle 4s infinite;
     width: 700px;
     margin: 0 auto;
-    padding: 9px 0;
+    padding: 9px 10px;
 }
 
 .dj {
