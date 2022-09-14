@@ -10,12 +10,15 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 150px;
+    z-index: 999;
+    
 }
 .enButton a{
     padding: 5px 10px;
     background: #B90100;
     border-radius: 3px;
     text-decoration: none;
+    z-index: 999;
 }
 .enButton a:hover{
     background: #FF0100;
@@ -220,6 +223,7 @@ main {
         padding: 5px 10px;
         background: #B90100;
         border-radius: 3px;
+        z-index: 999;
     }
     main {
         width: 100% !important;
@@ -302,7 +306,7 @@ main {
 @media all and (max-width: 375px) {
     main {
         width: 100% !important;
-        height: 110vh;
+        height: 115vh;
     }
     .keanu__img {
         width: 100%;
